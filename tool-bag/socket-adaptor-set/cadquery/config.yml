@@ -1,0 +1,36 @@
+# Configuration for driven-socket-adapter-case
+# https://www.drapertools.com/product/00005/socket-adaptor-set-1-4-hex-x-1-4-3-8-1-2-sq-dr-3-piece/
+
+HEIGHT: 20
+THICKNESS: 15
+WIDTH: 50
+RADIUS: 5
+TOLERANCE: 0.25
+DIM:
+    1/2: 
+        head:
+            width: 13
+            divet: 4
+        shoulder:
+            x: 20
+            dia: 17
+        support:
+            dia: 10
+        length: 72
+    3/8:
+        head:
+            width: 9.5
+            divet: 2
+        shoulder:
+            x: 16
+            dia: 12
+        length: 65
+    1/4:
+        head:
+            width: 6.3
+            divet: 0.7
+        shoulder:
+            x: 14
+            dia: 9.5
+        length: 65
+
