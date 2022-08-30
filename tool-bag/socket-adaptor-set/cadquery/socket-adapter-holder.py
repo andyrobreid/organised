@@ -4,6 +4,7 @@ Name: 'Andrew "MadeforMaking" Reid'
 Github: https://github.com/MadeforMaking
 
 Links: 
+    - https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set
     - https://www.drapertools.com/product/00005/socket-adaptor-set-1-4-hex-x-1-4-3-8-1-2-sq-dr-3-piece/
 """
 from math import pi
@@ -45,5 +46,8 @@ result = box
 for shape in heads: 
     result = result.cut(shape)
 
-show_object(result)
-# exporters.export(result, '../Driven Socket Adapter Case.stl')
+if "show_object" in locals():
+    show_object(result)
+else:
+    filename = input("Enter filename (excluding extention):")
+    exporters.export(result, f'{filename}.stl', exportType="STL")
