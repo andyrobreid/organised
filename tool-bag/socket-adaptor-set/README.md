@@ -11,6 +11,12 @@ This directory holds the output of the python [cadquery](https://github.com/CadQ
 You simply want to change the parameters via the [config.yml file](https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set/cadquery/config.yml).
 
 - Ensure the [requirements](https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set/cadquery/requirements.txt) (`requirements.txt`) are installed.
+- Change directory to `socket-adapter-set.py` location.
+- Make nessesary changes to neighbouring `config.yml`.
+- Run `python socket-adapter-set.py`
+- Enter file name (excluding extention) into the terminal input prompt.
+
+You will obtain an `.stl` file to your configuration.
 
 ## View & Edit CodeCAD
 
@@ -19,3 +25,8 @@ If you want to tweak the CodeCAD logic.
 I reccomend creating a separate [conda](https://docs.conda.io/en/latest/) enviroment for running [cq-editor](https://github.com/CadQuery/CQ-editor).
 
 - [Install instructions](https://github.com/CadQuery/CQ-editor#installation-anaconda)
+- Ensure the [requirements](https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set/cadquery/requirements.txt) (`requirements.txt`) are installed.
+
+OR
+
+- Use the [packate-list.txt](https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set/cadquery/package-list.txt) when [creating a new conda enviroment](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
