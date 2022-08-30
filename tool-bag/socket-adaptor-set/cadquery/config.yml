@@ -1,5 +1,11 @@
-# Configuration for driven-socket-adapter-case
-# https://www.drapertools.com/product/00005/socket-adaptor-set-1-4-hex-x-1-4-3-8-1-2-sq-dr-3-piece/
+# Title: socket-adaptor-set configuration
+# Name: 'Andrew "MadeforMaking" Reid'
+# 
+# Github: https://github.com/MadeforMaking
+# 
+# Links: 
+#     - https://github.com/MadeforMaking/organised/tree/master/tool-bag/socket-adaptor-set
+#     - https://www.drapertools.com/product/00005/socket-adaptor-set-1-4-hex-x-1-4-3-8-1-2-sq-dr-3-piece/
 
 HEIGHT: 20
 THICKNESS: 15
